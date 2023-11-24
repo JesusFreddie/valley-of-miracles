@@ -1,0 +1,45 @@
+/* авилов */
+
+
+
+.win-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.win-section .container {
+	width: 100vw;
+}
+
+.win-section__card:not(:first-child){
+	margin-top: 20px;
+}
+
+.win-section__title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.win-section__card{
+    display: flex;  
+		gap: 20px;
+    justify-content: space-between;
+    padding: 12px 16px;
+}
+
+
+.block {
+	display: block;
+}
+
+.win-section__card .vkuiCard__in {
+	display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+

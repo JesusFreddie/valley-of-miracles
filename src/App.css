@@ -1,0 +1,55 @@
+.container {
+	position: relative;
+	padding: 0 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+p {
+	max-width: 100px !important;
+}
+
+.none {
+	display: none !important;
+}
+/* .none {
+	background: red;
+} */
+.vkuiPanel .vkuiPanel__in, .vkuiPanel:before {
+	background-color: inherit;
+}
+
+
+
+/* Ниже Сёма */
+.h1{
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 41px;
+}
+
+.buttons{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttons button {
+	color: white;
+	font-size: 20px;
+	width: 240px;
+	height: 60px;
+}
+
+.playBtn{
+	background-color: rgba(74, 139, 223, 1);
+	margin-bottom: 20px;
+}
+
+.rulesBtn{
+	background-color: rgba(45, 24, 21, 1);
+}
+
+.mainMenu {
+	margin-top: 260px;
+}
